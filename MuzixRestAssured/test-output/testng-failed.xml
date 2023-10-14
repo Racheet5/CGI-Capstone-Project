@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="MuzixRestAssuredApiTestingScripts(failed)">
+    <classes>
+      <class name="com.group6.MuzixRestAssured.UserFavouritePlaylist">
+        <methods>
+          <include name="ListAllMyFavourites"/>
+          <include name="RemoveMusicFromFavourite"/>
+          <include name="AddToFavouritePlaylist"/>
+        </methods>
+      </class> <!-- com.group6.MuzixRestAssured.UserFavouritePlaylist -->
+      <class name="com.group6.MuzixRestAssured.MusicRecommendation">
+        <methods>
+          <include name="searchByArtist"/>
+          <include name="searchByGenre"/>
+          <include name="GetMusicForUserById"/>
+          <include name="searchByAlbum"/>
+          <include name="ListMusicForUser"/>
+        </methods>
+      </class> <!-- com.group6.MuzixRestAssured.MusicRecommendation -->
+      <class name="com.group6.MuzixRestAssured.UserFavouriteFailedCases">
+        <methods>
+          <include name="AddToFavouritePlaylist"/>
+          <include name="RemoveMusicFromFavourite"/>
+          <include name="ListAllMyFavourites"/>
+        </methods>
+      </class> <!-- com.group6.MuzixRestAssured.UserFavouriteFailedCases -->
+      <class name="com.group6.MuzixRestAssured.Authentication">
+        <methods>
+          <include name="Admib_Login"/>
+        </methods>
+      </class> <!-- com.group6.MuzixRestAssured.Authentication -->
+      <class name="com.group6.MuzixRestAssured.MusicRecommendationFailedCases">
+        <methods>
+          <include name="searchByAlbum"/>
+          <include name="ListMusicForUser"/>
+          <include name="GetMusicForUserById"/>
+          <include name="searchByGenre"/>
+          <include name="searchByArtist"/>
+        </methods>
+      </class> <!-- com.group6.MuzixRestAssured.MusicRecommendationFailedCases -->
+      <class name="com.group6.MuzixRestAssured.AuthenticationFailedCases">
+        <methods>
+          <include name="Admin_SignUp_Fail"/>
+        </methods>
+      </class> <!-- com.group6.MuzixRestAssured.AuthenticationFailedCases -->
+      <class name="com.group6.MuzixRestAssured.AdminMusicControllerFailedCases">
+        <methods>
+          <include name="DeleteMusicById"/>
+          <include name="GetMusicById"/>
+          <include name="UpdateMuiscById"/>
+          <include name="ListAllMusic"/>
+          <include name="AddNewMusic"/>
+        </methods>
+      </class> <!-- com.group6.MuzixRestAssured.AdminMusicControllerFailedCases -->
+      <class name="com.group6.MuzixRestAssured.AdminMusicController">
+        <methods>
+          <include name="ListAllMusic"/>
+          <include name="GetMusicById"/>
+          <include name="DeleteMusicById"/>
+          <include name="UpdateMuiscById"/>
+          <include name="AddNewMusic"/>
+        </methods>
+      </class> <!-- com.group6.MuzixRestAssured.AdminMusicController -->
+    </classes>
+  </test> <!-- MuzixRestAssuredApiTestingScripts(failed) -->
+</suite> <!-- Failed suite [Suite] -->

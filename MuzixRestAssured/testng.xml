@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="MuzixRestAssuredApiTestingScripts">
+    <classes>
+      <class name="com.group6.MuzixRestAssured.AuthenticationFailedCases"/>
+      <class name="com.group6.MuzixRestAssured.MusicRecommendationFailedCases"/>
+      <class name="com.group6.MuzixRestAssured.UserFavouritePlaylist"/>
+      <class name="com.group6.MuzixRestAssured.UserFavouriteFailedCases"/>
+      <class name="com.group6.MuzixRestAssured.MusicRecommendation"/>
+      <class name="com.group6.MuzixRestAssured.AdminMusicController"/>
+      <class name="com.group6.MuzixRestAssured.AdminMusicControllerFailedCases"/>
+      <class name="com.group6.MuzixRestAssured.Authentication"/>
+    </classes>
+  </test> <!-- MuzixRestAssuredApiTestingScripts -->
+</suite> <!-- Suite -->
